@@ -1,0 +1,201 @@
+16:56:57.205 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+16:56:57.814 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+16:57:00.866 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:01.981 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:02.206 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 60
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"scauto11@test.com","password":"Welcome1"}}
+
+16:57:02.660 [main] DEBUG com.intuit.karate - response time in milliseconds: 449
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"136-mzZ5JDb2JdOj1l382286Tb8IIBU"
+1 < X-Cloud-Trace-Context: cd848c7be10e9eddd908a60d48e89bb9
+1 < Date: Mon, 11 Nov 2024 15:57:02 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 310
+{"user":{"email":"scauto11@test.com","username":"scauto11","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3Nn0sImlhdCI6MTczMTM0MDYyMiwiZXhwIjoxNzM2NTI0NjIyfQ.L-OaVdRJDOahJvW-03CxSBubiArpM4Z2zSQW6uN6FQA"}}
+
+16:57:02.683 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:02.692 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:02.695 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 60
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"scauto12@test.com","password":"Welcome1"}}
+
+16:57:03.089 [main] DEBUG com.intuit.karate - response time in milliseconds: 391
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"136-wj/JeTin2eJtPwj9WXBT+nLBi04"
+1 < X-Cloud-Trace-Context: e0db52504341b71a41fc73ed8c07661b
+1 < Date: Mon, 11 Nov 2024 15:57:03 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 310
+{"user":{"email":"scauto12@test.com","username":"scauto12","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3N30sImlhdCI6MTczMTM0MDYyMywiZXhwIjoxNzM2NTI0NjIzfQ.S_TOwFaHqsNnrYaT-bwOTaieA4jo23NPJfIC-nojWz8"}}
+
+16:57:03.100 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:03.106 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:03.109 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 60
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"scauto13@test.com","password":"Welcome1"}}
+
+16:57:03.493 [main] DEBUG com.intuit.karate - response time in milliseconds: 381
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"136-JV7kqCZ2ubLoqtVpGJpsy3BJRS0"
+1 < X-Cloud-Trace-Context: 6c5b2a804e6ded818cfc90a0ff91f431
+1 < Date: Mon, 11 Nov 2024 15:57:03 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 310
+{"user":{"email":"scauto13@test.com","username":"scauto13","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3OH0sImlhdCI6MTczMTM0MDYyMywiZXhwIjoxNzM2NTI0NjIzfQ.7UEPHOSprvu-iUXS6kbm0AuaA8XFl84-LkX0leRFtWA"}}
+
+16:57:03.648 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+16:57:03.649 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+16:57:03.663 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+16:57:03.667 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+16:57:03.757 [gatling-1-1] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:03.787 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:04.016 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3Nn0sImlhdCI6MTczMTM0MDYyMiwiZXhwIjoxNzM2NTI0NjIyfQ.L-OaVdRJDOahJvW-03CxSBubiArpM4Z2zSQW6uN6FQA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 125
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"titulado5","description":"descriptionexample12","body":"Every flight begins with a fall.","tagList":[]}}
+
+16:57:04.366 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 201
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"190-LFS0t6fMVO0mnD7IhjXf8jnElRQ"
+1 < X-Cloud-Trace-Context: 6991eac6047f0435e585a0766386b3aa
+1 < Date: Mon, 11 Nov 2024 15:57:04 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 400
+{"article":{"slug":"titulado5-12976","title":"titulado5","description":"descriptionexample12","body":"Every flight begins with a fall.","tagList":[],"createdAt":"2024-11-11T15:57:04.295Z","updatedAt":"2024-11-11T15:57:04.295Z","favorited":false,"favoritesCount":0,"author":{"username":"scauto11","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+16:57:07.689 [gatling-1-2] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:07.697 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:07.728 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3N30sImlhdCI6MTczMTM0MDYyMywiZXhwIjoxNzM2NTI0NjIzfQ.S_TOwFaHqsNnrYaT-bwOTaieA4jo23NPJfIC-nojWz8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 165
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"titulado6","description":"descriptionexample13","body":"Some old wounds never truly heal, and bleed again at the slightest word.","tagList":[]}}
+
+16:57:08.098 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG com.intuit.karate - response time in milliseconds: 365
+1 < 201
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"1b8-NCfqxrObAOIvjlYR/K4yXFaaJdw"
+1 < X-Cloud-Trace-Context: 4b05534c82d52938d7518d9b10c7b125
+1 < Date: Mon, 11 Nov 2024 15:57:08 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 440
+{"article":{"slug":"titulado6-12977","title":"titulado6","description":"descriptionexample13","body":"Some old wounds never truly heal, and bleed again at the slightest word.","tagList":[],"createdAt":"2024-11-11T15:57:08.013Z","updatedAt":"2024-11-11T15:57:08.013Z","favorited":false,"favoritesCount":0,"author":{"username":"scauto12","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+16:57:08.687 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.c.c.inject.open.OpenWorkload - Scenario io.gatling.core.scenario.Scenario@34d69a2d has finished injecting
+16:57:08.688 [gatling-1-3] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:08.688 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.core.controller.inject.Injector - All scenarios have finished injecting
+16:57:08.695 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:08.722 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3OH0sImlhdCI6MTczMTM0MDYyMywiZXhwIjoxNzM2NTI0NjIzfQ.7UEPHOSprvu-iUXS6kbm0AuaA8XFl84-LkX0leRFtWA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 118
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"titulado7","description":"descriptionexample14","body":"Do the dead frighten you?","tagList":[]}}
+
+16:57:09.105 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG com.intuit.karate - response time in milliseconds: 380
+1 < 201
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"189-THJjMoxj1ZcsspYLf/MjNBqqY3g"
+1 < X-Cloud-Trace-Context: 526861dfddc3ee1047570f76b25f53bd;o=1
+1 < Date: Mon, 11 Nov 2024 15:57:09 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 393
+{"article":{"slug":"titulado7-12978","title":"titulado7","description":"descriptionexample14","body":"Do the dead frighten you?","tagList":[],"createdAt":"2024-11-11T15:57:08.997Z","updatedAt":"2024-11-11T15:57:08.997Z","favorited":false,"favoritesCount":0,"author":{"username":"scauto13","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+16:57:09.691 [gatling-1-4] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:57:09.711 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - karate.env system property was: null 
+16:57:09.741 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk3Nn0sImlhdCI6MTczMTM0MDYyMiwiZXhwIjoxNzM2NTI0NjIyfQ.L-OaVdRJDOahJvW-03CxSBubiArpM4Z2zSQW6uN6FQA
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 121
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"titulado5","description":"descriptionexample12","body":"Nothing burns like the cold.","tagList":[]}}
+
+16:57:10.034 [GatlingSystem-akka.actor.default-dispatcher-7] DEBUG com.intuit.karate - response time in milliseconds: 290
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-BNeuaWQ7DHvW/r+pl+qdJiF06Is"
+1 < X-Cloud-Trace-Context: 19fcefe3f9af729ea3d8e3076d0f24ed
+1 < Date: Mon, 11 Nov 2024 15:57:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"title":["must be unique"]}}
+
+16:57:10.051 [GatlingSystem-akka.actor.default-dispatcher-7] ERROR com.intuit.karate - classpath:conduitApp/performance/createArticle.feature:19
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 290, url: https://conduit-api.bondaracademy.com/api/articles, response: 
+{"errors":{"title":["must be unique"]}}
+classpath:conduitApp/performance/createArticle.feature:19
+16:57:10.060 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - All users of scenario create and delete article are stopped
+16:57:10.062 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.core.controller.inject.Injector - Stopping
+16:57:10.064 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+16:57:10.116 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+16:57:10.155 [main] INFO  i.g.charts.stats.LogFileReader$ - Collected List(C:\Users\santiagococco\Repos\Udemy\KarateAPI\target\gatling\perftest-20241111155703546\simulation.log) from perftest-20241111155703546
+16:57:10.171 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+16:57:10.178 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 13 lines
+16:57:10.193 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+16:57:10.215 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 13 lines

@@ -1,0 +1,13 @@
+RUN	performance.PerfTest	perftest	1731340623546	 	3.9.5
+USER	create and delete article	START	1731340623699
+REQUEST		POST /api/articles	1731340624018	1731340624365	OK	 
+USER	create and delete article	END	1731340624381
+USER	create and delete article	START	1731340627687
+REQUEST		POST /api/articles	1731340627731	1731340628096	OK	 
+USER	create and delete article	END	1731340628108
+USER	create and delete article	START	1731340628686
+REQUEST		POST /api/articles	1731340628724	1731340629104	OK	 
+USER	create and delete article	END	1731340629115
+USER	create and delete article	START	1731340629687
+REQUEST		POST /api/articles	1731340629743	1731340630033	KO	conduitApp/performance/createArticle.feature:19 status 201
+USER	create and delete article	END	1731340630059

@@ -1,0 +1,16 @@
+# Versión de Docker Compose
+version: "3.8"
+
+services:
+  karate-tests:
+    image: karate-tests  # Imagen a usar
+    build:
+      context: .  # Carpeta actual
+      dockerfile: ./Dockerfile  # Dockerfile para construir la imagen
+    volumes:
+      - ./target:/usr/scr/app/target  # Carpeta 'target' compartida
+      - ~/.m2:/root/.m2  # Cache de Maven compartida
+    command: mvn test  # Comando para ejecutar pruebas
+
+    # Ejecutar con docker-compose up --build
+
